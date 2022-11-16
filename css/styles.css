@@ -1,0 +1,130 @@
+body {
+    /* background: url("../resources/banner.jpg"); */
+    background-image: url("../resources/banner2.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    background-color: lightblue;/* antiquewhite;*/ 
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: 20px;
+    /*font-size: 20px;*/
+    font-family: sans-serif;
+}
+
+h1 {
+    /*border: 10px dashed darkgoldenrod;*/
+    padding: 5px;
+    padding-bottom: 0px;
+    width: auto;
+    color: green;/*darkblue; blue; green; brown;*/
+}
+
+h5 {
+    /*border: 10px dashed darkgoldenrod;*/
+    padding: 0px;/*0px 0px 0px 20px; /*top,right,bottom,left*/
+    padding-left: 20px;
+}
+
+button {
+    /*color: blue;*/
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#logo {
+    float: left;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#title {
+    color: blue;/*blue; darkgreen; */
+}
+
+h1, h2, h3, p, footer{
+    margin-left: 20px;
+}
+a:hover {
+    background: gold;    
+}
+
+a:active {
+    background: green;
+    color: white;    
+}
+
+a:visited {
+    background: aqua;    
+}
+
+#vision {
+    background-color: whitesmoke; 
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: 20px;
+    /*font-size: 20px;*/
+    font-family: sans-serif;
+}
+
+q, em { 
+    background: lawngreen;
+}
+
+#copyright {
+    font-size: small;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+#email {
+    background-color: whitesmoke; 
+    width: 30px;
+    height: 30px; 
+}
+
+/* Using DIV container class to align image and text*/
+.container {
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+img {
+    max-width: 100%;
+}
+
+.image {
+    background-color: whitesmoke;
+    width: 30px;
+    height: 30px;
+    flex-basis: auto;
+    order: 0;
+}
+
+.text {
+    font-size: medium;
+    font-style: italic;    
+}
+
+/* for id=container*/
+#container {
+    display: flex;
+    align-items: center; 
+}
+
+#container img {
+    margin-right: 0px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: whitesmoke;/* whitesmoke; black;*/
+    display: flex;
+    align-items: center;
+}
